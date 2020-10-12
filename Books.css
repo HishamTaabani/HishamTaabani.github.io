@@ -1,0 +1,543 @@
+/* ssssssssssssssssss */
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
+
+
+
+
+/* Style for box */
+h8 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Dubai;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Dubai;
+}
+
+h4 {
+  font-family: Dubai;
+  font-size: 25px;
+  color: green;
+}
+
+.wrr {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.wrapper {
+
+
+  display: flex;
+  grid-gap: 0.5px;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 400px));
+  padding: 30px;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+
+.box {
+
+  border-radius: 30px;
+  background-color: white;
+  width: 480px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  color: #303030;
+  font-family: 'Century Gothic', sans-serif;
+  -webkit-box-shadow: 0px 0px 35px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -15px rgba(0, 0, 0, 0.75);
+}
+
+.box:hover {
+  border-radius: 20px;
+  background-color: #ebebeb;
+  transition-duration: 0.7s;
+  /* width: 480px; */
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  color: #303030;
+  font-family: 'Century Gothic', sans-serif;
+  /*
+	/* Shadow for box */
+  -webkit-box-shadow: 0px 0px 35px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -15px rgba(0, 0, 0, 0.75);
+}
+
+.box-img {
+  text-align: center;
+}
+
+.box h1 {
+  font-family: Dubai;
+  font-size: 30px;
+  font-weight: 100;
+  font-weight: bolder;
+}
+
+/* .box hr{
+  border-top: 1px solid white;
+} */
+.box h5 {
+  font-family: Dubai;
+  font-size: 20px;
+  color: #0033cc;
+  font-weight: 100;
+}
+
+.box p {
+  text-align: right;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 18px;
+}
+
+.info {
+  margin: 1.5em 0;
+  text-align: center;
+  border: none;
+  padding-bottom: 20px;
+}
+
+.info:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eee;
+  margin: 0 0.4em;
+}
+
+.info:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eee;
+  margin: 0 0.4em;
+}
+
+.box li {
+  text-align: right;
+  font-family: Dubai;
+  font-size: 20px;
+}
+
+.box li a {
+  color: #303030;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+  color: #2fe6a6;
+}
+
+.hh {
+  border: 1px solid #ff6666;
+}
+
+/* End Style for box */
+/* sssssssssss */
+h2 {
+  color: black;
+  background: #f2709c;
+  font-family: Arial;
+}
+
+.ToCenter {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+}
+
+.footer {
+  font-size: 25px;
+  font-family: Dubai;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------------------------------------------------------------------------- */
+.PdfFile {
+  padding: 30px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------------------- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background: #f2709c;
+  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+  background: linear-gradient(to right, #ff9472, #f2709c);
+  font-family: Dubai;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  font-family: Dubai;
+  text-align: center;
+}
+
+h2 {
+  font-family: Dubai;
+  font-size: 20px;
+  font-family: Dubai;
+  text-align: center;
+}
+
+/* Colmn */
+/* Create two equal columns that floats next to each other */
+.column {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*  */
+.output {
+  text-align: center;
+}
+
+.theinput {
+  color: black;
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  font-family: Dubai;
+  color: red;
+  font-size: 90px;
+}
+
+.Hisham {
+  height: 160px;
+  width: 65%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  padding: auto;
+  font-family: Dubai;
+  font-size: 20px;
+}
+
+th, td {
+  margin: 1500px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+tr:nth-child(1) {
+  background-color: #DCDCDC;
+  color: black;
+}
+
+tr:nth-child(2) {
+  background-color: #FFFACD;
+  color: black;
+}
+
+tr:nth-child(3) {
+  background-color: #DBF9B1;
+  color: black;
+}
+
+tr:nth-child(4) {
+  background-color: #B1D6F9;
+  color: black;
+}
+
+/* to disable copy */
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/* the button  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  font-family: Dubai;
+  margin: 0%;
+  text-align: center;
+}
+
+.btn-hover {
+  font-family: Dubai;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #ff3333, #cc0000
+, #ff1a1a
+
+, #ff1a1a
+);
+}
+
+.btn-hover.color-4 {
+  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+}
+
+
+
+
+
+
+
+
+
+/* //////////////// */
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+img {
+  width: 100%;
+  height: auto;
+}
